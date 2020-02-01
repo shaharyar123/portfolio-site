@@ -4,14 +4,6 @@ import avatar from '../images/avatar.svg';
 import hero from '../images/hero.svg';
 export default class MainSection extends Component {
 
-    constructor(props) {
-        super(props);
-
-
-    }
-
-
-
     render() {
         const heading = {
             color: "#141c3a",

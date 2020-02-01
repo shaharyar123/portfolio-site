@@ -4,12 +4,13 @@ import './App.css';
 import { Button, Navbar, Nav } from 'react-bootstrap'
 import MainSection from './components/main.component';
 import IntroSection from './components/intro.component';
+import SkillsSection from './components/skills.component';
 
 function App() {
   return (
     <div className="App">
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">MSI</Navbar.Brand>
+        <Navbar.Brand href="#home">M Shaharyar</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">
@@ -20,6 +21,7 @@ function App() {
       </Navbar>
       <MainSection></MainSection>
       <IntroSection></IntroSection>
+      <SkillsSection></SkillsSection>
     </div>
   );
 }

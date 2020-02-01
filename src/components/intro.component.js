@@ -1,22 +1,13 @@
 import { Component } from 'react';
 import React from 'react';
-import avatar from '../images/avatar.svg';
-import hero from '../images/hero.svg';
+
 export default class IntroSection extends Component {
-
-    constructor(props) {
-        super(props);
-
-
-    }
-
-
 
     render() {
         const section = {
             backgroundColor: '#816CF8',
 
-            padding: '120px 20px 120px 20px'
+            padding: '120px 20px 170px 20px'
         }
         const heading = {
             color: "white",
@@ -29,10 +20,11 @@ export default class IntroSection extends Component {
             color: "white",
             fontFamily: "Martel+Sans",
             // marginBottom: "25px",
-            fontSize: "21px"
+            fontSize: "21px",
         };
         const infoSec = {
-            margin: '0 150px 0 150px'
+            margin: '0 150px 0 150px',
+
         }
 
 
@@ -50,16 +42,7 @@ export default class IntroSection extends Component {
                            I'm quietly confident, naturally curious, and perpetually working on improving my chops
                            one design problem at a time.
                  </p>
-                    {/* <h2 style={subHeading}>I design and code beautifully simple things, and I love what I do.</h2> */}
                 </div>
-                {/* <div>
-                    <img src={avatar} className="App-logo" alt="logo" />
-
-                </div>
-                <div style={heroMachineSec}>
-                    <img src={hero} className="App-logo" alt="logo" />
-
-                </div> */}
 
 
 
