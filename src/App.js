@@ -5,6 +5,7 @@ import { Button, Navbar, Nav } from 'react-bootstrap'
 import MainSection from './components/main.component';
 import IntroSection from './components/intro.component';
 import SkillsSection from './components/skills.component';
+import ContributionsSection from './components/contributions.component';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <MainSection></MainSection>
       <IntroSection></IntroSection>
       <SkillsSection></SkillsSection>
+      <ContributionsSection>  </ContributionsSection>
     </div>
   );
 }
