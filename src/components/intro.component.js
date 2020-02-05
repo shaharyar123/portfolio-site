@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import React from 'react';
-
+import '../css/intro.css'
 export default class IntroSection extends Component {
 
     render() {
@@ -30,7 +30,7 @@ export default class IntroSection extends Component {
 
         return (
             <section style={section}>
-                <div style={infoSec}>
+                <div style={infoSec} className="infoSec">
                     <h1 style={heading}>
                         Hi, I’m Shaharyar. Nice to meet you.
                  </h1>

@@ -6,11 +6,15 @@ import MainSection from './components/main.component';
 import IntroSection from './components/intro.component';
 import SkillsSection from './components/skills.component';
 import ContributionsSection from './components/contributions.component';
+import ProjectsSection from './components/projects.component';
 
 function App() {
+  const heading = {
+    backgroundColor: "red !important"
+  }
   return (
     <div className="App">
-      <Navbar bg="light" expand="lg">
+      <Navbar style={heading} bg="light" expand="lg">
         <Navbar.Brand href="#home">M Shaharyar</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
@@ -23,7 +27,8 @@ function App() {
       <MainSection></MainSection>
       <IntroSection></IntroSection>
       <SkillsSection></SkillsSection>
-      <ContributionsSection>  </ContributionsSection>
+      <ContributionsSection></ContributionsSection>
+      <ProjectsSection></ProjectsSection>
     </div>
   );
 }

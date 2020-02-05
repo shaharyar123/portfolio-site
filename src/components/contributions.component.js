@@ -1,6 +1,5 @@
 import { Component } from 'react';
 import React from 'react';
-import { ListGroup } from 'react-bootstrap'
 import '../css/contributions.css'
 export default class ContributionsSection extends Component {
 
@@ -12,10 +11,8 @@ export default class ContributionsSection extends Component {
         }
         const heading = {
             color: "white",
-            fontSize: "24px",
+            fontSize: "30px",
             fontFamily: "Uncial Antiqua",
-            // marginBottom: "15px"
-
         };
         const subHeading = {
             color: "#141c3a",
@@ -51,7 +48,7 @@ export default class ContributionsSection extends Component {
                 <div>
                     <h3 style={subHeading}>Github</h3>
 
-                    <ol class="gradient-list">
+                    <ol className="gradient-list">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                         <li>Aenean tincidunt elit at ipsum cursus, vitae interdum nulla suscipit.</li>
                         <li>Curabitur in orci vel risus facilisis accumsan.</li>
@@ -66,7 +63,7 @@ export default class ContributionsSection extends Component {
                 <div>
                     <h3 style={subHeading}>Articles</h3>
 
-                    <ol class="gradient-list">
+                    <ol className="gradient-list">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                         <li>Aenean tincidunt elit at ipsum cursus, vitae interdum nulla suscipit.</li>
                         <li>Curabitur in orci vel risus facilisis accumsan.</li>
@@ -79,7 +76,7 @@ export default class ContributionsSection extends Component {
                 <div>
                     <h3 style={subHeading}>Others</h3>
 
-                    <ol class="gradient-list">
+                    <ol className="gradient-list">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                         <li>Aenean tincidunt elit at ipsum cursus, vitae interdum nulla suscipit.</li>
                         <li>Curabitur in orci vel risus facilisis accumsan.</li>

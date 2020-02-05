@@ -23,6 +23,13 @@ export default class MainSection extends Component {
             marginTop: "50px"
         }
 
+        const heroImg = {
+
+            height: '40vmin',
+            maxWidth: '100%'
+
+
+        }
 
         return (
             <section className="App-header">
@@ -37,7 +44,7 @@ export default class MainSection extends Component {
 
                 </div>
                 <div style={heroMachineSec}>
-                    <img src={hero} className="App-logo" alt="logo" />
+                    <img style={heroImg} src={hero} alt="logo" />
 
                 </div>
 
