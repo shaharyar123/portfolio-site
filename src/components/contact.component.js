@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import React from 'react';
-import { FaTwitter, FaLinkedinIn, FaGithub, FaStackOverflow, FaFacebook, FaEnvelope } from 'react-icons/fa';
+import { FaTwitter, FaLinkedinIn, FaGithub, FaStackOverflow, FaFacebook, FaEnvelope, FaDownload } from 'react-icons/fa';
 
 export default class ContactSection extends Component {
 
@@ -20,8 +20,13 @@ export default class ContactSection extends Component {
             marginTop: '30px',
             color: "white",
             fontSize: "18px",
-            fontFamily: "fontFamily",
+            fontFamily: "Martel+Sans",
         };
+
+        const fontMartel = {
+            fontFamily: "Martel+Sans",
+
+        }
 
         const iconSec = {
             margin: '50px 0'
@@ -51,9 +56,11 @@ export default class ContactSection extends Component {
                     Ping Me!
                  </h1>
                 <div style={info}>
-                    <h3>M Shaharyar</h3>
-                    <p>I love what i do. Even if I had a different occupation, I would be coding something in my spare time!</p>
-                    <p>shairy333@gmail.com | +92 334 3823232</p>
+                    <h3 style={fontMartel}>M Shaharyar</h3>
+                    <p style={fontMartel}>I love what i do. Even if I had a different occupation, I would be coding something in my spare time!</p>
+                    <p style={fontMartel}>shairy333@gmail.com | +92 334 3823232</p>
+                    <p style={fontMartel}>
+                        <FaDownload style={icon}></FaDownload> <b>Download Resume</b></p>
                 </div>
                 <div style={iconSec} >
                     <span style={iconWrapper}>

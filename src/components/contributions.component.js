@@ -22,6 +22,10 @@ export default class ContributionsSection extends Component {
             fontWeight: 'bold'
         };
 
+        const listing = {
+            padding: ' 0 10%'
+        }
+
         const infoSec = {
             border: '1px solid #E6ECF8',
             borderRadius: '12px',
@@ -45,7 +49,7 @@ export default class ContributionsSection extends Component {
 
                 </div>
 
-                <div>
+                <div style={listing}>
                     <h3 style={subHeading}>Github</h3>
 
                     <ol className="gradient-list">
@@ -60,7 +64,7 @@ export default class ContributionsSection extends Component {
                     </ol>
 
                 </div>
-                <div>
+                <div style={listing}>
                     <h3 style={subHeading}>Articles</h3>
 
                     <ol className="gradient-list">
@@ -73,7 +77,7 @@ export default class ContributionsSection extends Component {
 
                 </div>
 
-                <div>
+                <div style={listing}>
                     <h3 style={subHeading}>Others</h3>
 
                     <ol className="gradient-list">

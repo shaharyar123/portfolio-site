@@ -41,6 +41,11 @@ export default class IntroSection extends Component {
                           with talented people to create digital products for both business and consumer use.
                            I'm quietly confident, naturally curious, and perpetually working on improving my chops
                            one design problem at a time.
+                           </p>
+
+                    <p style={infoPara}>
+                        I like good teams with people smarter than me, clean code, good architecture, reasonable solutions, modern technologies, challenges and thinking before doing.
+                        I always pay attention to the architecture, code flexibility, maintainability and long-term effects of every taken decision.
                  </p>
                 </div>
 
