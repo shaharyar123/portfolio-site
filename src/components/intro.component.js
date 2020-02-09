@@ -18,7 +18,7 @@ export default class IntroSection extends Component {
         };
         const infoPara = {
             color: "white",
-            fontFamily: "Martel+Sans",
+            fontFamily: "c",
             // marginBottom: "25px",
             fontSize: "21px",
         };

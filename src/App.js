@@ -7,6 +7,7 @@ import IntroSection from './components/intro.component';
 import SkillsSection from './components/skills.component';
 import ContributionsSection from './components/contributions.component';
 import ProjectsSection from './components/projects.component';
+import ContactSection from './components/contact.component';
 
 function App() {
   const heading = {
@@ -29,6 +30,7 @@ function App() {
       <SkillsSection></SkillsSection>
       <ContributionsSection></ContributionsSection>
       <ProjectsSection></ProjectsSection>
+      <ContactSection></ContactSection>
     </div>
   );
 }
