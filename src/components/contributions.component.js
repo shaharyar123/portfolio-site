@@ -1,6 +1,8 @@
 import { Component } from 'react';
 import React from 'react';
-import '../css/contributions.css'
+import '../css/contributions.css';
+import ScrollAnimation from 'react-animate-on-scroll';
+
 export default class ContributionsSection extends Component {
 
     render() {
@@ -50,42 +52,49 @@ export default class ContributionsSection extends Component {
                 </div>
 
                 <div style={listing}>
+
                     <h3 style={subHeading}>Github</h3>
+                    <ScrollAnimation animateIn='fadeIn'>
 
-                    <ol className="gradient-list">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Aenean tincidunt elit at ipsum cursus, vitae interdum nulla suscipit.</li>
-                        <li>Curabitur in orci vel risus facilisis accumsan.</li>
-                        <li>Morbi eleifend tortor lacinia sapien sagittis, quis pellentesque felis egestas.</li>
-                        <li>Aenean viverra dui quis leo lacinia fringilla.</li>
-                        <li>Sed varius lectus ac condimentum egestas.</li>
+                        <ol className="gradient-list">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Aenean tincidunt elit at ipsum cursus, vitae interdum nulla suscipit.</li>
+                            <li>Curabitur in orci vel risus facilisis accumsan.</li>
+                            <li>Morbi eleifend tortor lacinia sapien sagittis, quis pellentesque felis egestas.</li>
+                            <li>Aenean viverra dui quis leo lacinia fringilla.</li>
+                            <li>Sed varius lectus ac condimentum egestas.</li>
 
 
-                    </ol>
+                        </ol>
+                    </ScrollAnimation>
 
                 </div>
                 <div style={listing}>
                     <h3 style={subHeading}>Articles</h3>
+                    <ScrollAnimation animateIn='fadeIn'>
 
-                    <ol className="gradient-list">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Aenean tincidunt elit at ipsum cursus, vitae interdum nulla suscipit.</li>
-                        <li>Curabitur in orci vel risus facilisis accumsan.</li>
+                        <ol className="gradient-list">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Aenean tincidunt elit at ipsum cursus, vitae interdum nulla suscipit.</li>
+                            <li>Curabitur in orci vel risus facilisis accumsan.</li>
 
 
-                    </ol>
+                        </ol>
+                    </ScrollAnimation>
 
                 </div>
 
                 <div style={listing}>
                     <h3 style={subHeading}>Others</h3>
+                    <ScrollAnimation animateIn='fadeIn'>
 
-                    <ol className="gradient-list">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Aenean tincidunt elit at ipsum cursus, vitae interdum nulla suscipit.</li>
-                        <li>Curabitur in orci vel risus facilisis accumsan.</li>
+                        <ol className="gradient-list">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Aenean tincidunt elit at ipsum cursus, vitae interdum nulla suscipit.</li>
+                            <li>Curabitur in orci vel risus facilisis accumsan.</li>
 
-                    </ol>
+                        </ol>
+                    </ScrollAnimation>
 
                 </div>
 

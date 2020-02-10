@@ -3,9 +3,11 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import '../css/intro.css'
 import {
-    Card, Button, CardHeader, CardFooter, CardBody,
+    Card,   CardHeader, CardBody,
     CardTitle, CardText
 } from 'reactstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
+
 export default class SkillsSection extends Component {
 
 
@@ -42,6 +44,8 @@ export default class SkillsSection extends Component {
                  </h1>
 
                     <Container>
+                    <ScrollAnimation animateIn='fadeIn'>
+
                         <Row style={{ margin: "12px 0px" }}>
                             <Col xs={12} md={4}>
                                 <Card>
@@ -80,6 +84,9 @@ export default class SkillsSection extends Component {
 
                             </Col>
                         </Row>
+                       </ScrollAnimation>
+                       <ScrollAnimation animateIn='fadeIn'>
+
                         <Row style={{ margin: "12px 0px" }}>
                             <Col xs={12} md={4}>
                                 <Card>
@@ -118,6 +125,9 @@ export default class SkillsSection extends Component {
 
                             </Col>
                         </Row>
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn='fadeIn'>
+
                         <Row style={{ margin: "12px 0px" }}>
                             <Col xs={12} md={4}>
                                 <Card>
@@ -156,7 +166,7 @@ export default class SkillsSection extends Component {
 
                             </Col>
                         </Row>
-
+                        </ScrollAnimation>
                     </Container>
 
 

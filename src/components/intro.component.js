@@ -30,6 +30,7 @@ export default class IntroSection extends Component {
 
         return (
             <section style={section}>
+
                 <div style={infoSec} className="infoSec">
                     <h1 style={heading}>
                         Hi, I’m Shaharyar. Nice to meet you.

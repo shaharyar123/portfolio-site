@@ -2,6 +2,8 @@ import { Component } from 'react';
 import React from 'react';
 import avatar from '../images/avatar.svg';
 import hero from '../images/hero.svg';
+import ScrollAnimation from 'react-animate-on-scroll';
+
 export default class MainSection extends Component {
 
     render() {
@@ -33,19 +35,29 @@ export default class MainSection extends Component {
 
         return (
             <section className="App-header">
+
                 <div>
-                    <h1 style={heading}>
-                        Fullstack JavaScript Developer
+                    <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
+
+                        <h1 style={heading}>
+                            Fullstack JavaScript Developer
                  </h1>
-                    <h2 style={subHeading}>I design and code beautifully simple things, and I love what I do.</h2>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='bounceInLeft' animateOut='bounceOutRight'>
+
+                        <h2 style={subHeading}>I design and code beautifully simple things, and I love what I do.</h2>
+                    </ScrollAnimation>
                 </div>
+
                 <div>
                     <img src={avatar} className="App-logo" alt="logo" />
 
                 </div>
                 <div style={heroMachineSec}>
-                    <img style={heroImg} src={hero} alt="logo" />
-
+                    <ScrollAnimation animateIn='flipInY'
+                        animateOut='flipOutY'>
+                        <img style={heroImg} src={hero} alt="logo" />
+                    </ScrollAnimation>
                 </div>
 
 
