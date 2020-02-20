@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import '../css/intro.css'
 import {
-    Card,   CardHeader, CardBody,
+    Card, CardHeader, CardBody,
     CardTitle, CardText
 } from 'reactstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -44,128 +44,119 @@ export default class SkillsSection extends Component {
                  </h1>
 
                     <Container>
-                    <ScrollAnimation animateIn='fadeIn'>
+                        <ScrollAnimation animateOnce='true' animateIn='fadeIn'>
 
-                        <Row style={{ margin: "12px 0px" }}>
-                            <Col xs={12} md={4}>
-                                <Card>
-                                    <CardHeader>Skill</CardHeader>
-                                    <CardBody>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                    </CardBody>
-                                </Card>
+                            <Row style={{ margin: "12px 0px" }}>
+                                <Col xs={12} md={4}>
+                                    <Card>
+                                        <CardHeader>Client Side</CardHeader>
+                                        <CardBody>
+                                            <CardTitle>Angular Js 1</CardTitle>
+                                            <CardTitle>Angular Js 2+</CardTitle>
+                                            <CardTitle>React</CardTitle>
 
-                            </Col>
-                            <Col xs={12} md={4}>
-                                <Card>
-                                    <CardHeader>Skill</CardHeader>
-                                    <CardBody>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                    </CardBody>
-                                </Card>
+                                        </CardBody>
+                                    </Card>
 
-                            </Col>
-                            <Col xs={12} md={4}>
-                                <Card>
-                                    <CardHeader>Skill</CardHeader>
-                                    <CardBody>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                    </CardBody>
-                                </Card>
+                                </Col>
+                                <Col xs={12} md={4}>
+                                    <Card>
+                                        <CardHeader>Server Side</CardHeader>
+                                        <CardBody>
+                                            <CardTitle>Node</CardTitle>
+                                            <CardTitle>Express</CardTitle>
+                                            <CardTitle>Nest Js</CardTitle>
+                                        </CardBody>
+                                    </Card>
 
-                            </Col>
-                        </Row>
-                       </ScrollAnimation>
-                       <ScrollAnimation animateIn='fadeIn'>
+                                </Col>
+                                <Col xs={12} md={4}>
+                                    <Card>
+                                        <CardHeader>Cross Platform</CardHeader>
+                                        <CardBody>
+                                            <CardTitle>Ionic 1</CardTitle>
+                                            <CardTitle>Ionic 2+</CardTitle>
+                                            <CardTitle>React native</CardTitle>
+                                        </CardBody>
+                                    </Card>
 
-                        <Row style={{ margin: "12px 0px" }}>
-                            <Col xs={12} md={4}>
-                                <Card>
-                                    <CardHeader>Skill</CardHeader>
-                                    <CardBody>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                    </CardBody>
-                                </Card>
-
-                            </Col>
-                            <Col xs={12} md={4}>
-                                <Card>
-                                    <CardHeader>Skill</CardHeader>
-                                    <CardBody>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                    </CardBody>
-                                </Card>
-
-                            </Col>
-                            <Col xs={12} md={4}>
-                                <Card>
-                                    <CardHeader>Skill</CardHeader>
-                                    <CardBody>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                    </CardBody>
-                                </Card>
-
-                            </Col>
-                        </Row>
+                                </Col>
+                            </Row>
                         </ScrollAnimation>
-                        <ScrollAnimation animateIn='fadeIn'>
+                        <ScrollAnimation animateOnce='true' animateIn='fadeIn'>
 
-                        <Row style={{ margin: "12px 0px" }}>
-                            <Col xs={12} md={4}>
-                                <Card>
-                                    <CardHeader>Skill</CardHeader>
-                                    <CardBody>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                    </CardBody>
-                                </Card>
+                            <Row style={{ margin: "12px 0px" }}>
+                                <Col xs={12} md={4}>
+                                    <Card>
+                                        <CardHeader>Database</CardHeader>
+                                        <CardBody>
+                                            <CardTitle>MongoDB</CardTitle>
+                                            <CardTitle>PostgreSQL</CardTitle>
 
-                            </Col>
-                            <Col xs={12} md={4}>
-                                <Card>
-                                    <CardHeader>Skill</CardHeader>
-                                    <CardBody>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                    </CardBody>
-                                </Card>
+                                        </CardBody>
+                                    </Card>
 
-                            </Col>
-                            <Col xs={12} md={4}>
-                                <Card>
-                                    <CardHeader>Skill</CardHeader>
-                                    <CardBody>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                        <CardTitle>item 1</CardTitle>
-                                    </CardBody>
-                                </Card>
+                                </Col>
+                                <Col xs={12} md={4}>
+                                    <Card>
+                                        <CardHeader>Design</CardHeader>
+                                        <CardBody>
+                                            <CardTitle>Html/CSS/SCSS</CardTitle>
+                                            <CardTitle>Bootstrap</CardTitle>
 
-                            </Col>
-                        </Row>
+                                        </CardBody>
+                                    </Card>
+
+                                </Col>
+                                <Col xs={12} md={4}>
+                                    <Card>
+                                        <CardHeader>Languages</CardHeader>
+                                        <CardBody>
+                                            <CardTitle>Javascript</CardTitle>
+                                            <CardTitle>Typescript</CardTitle>
+
+                                        </CardBody>
+                                    </Card>
+
+                                </Col>
+                            </Row>
+                        </ScrollAnimation>
+                        <ScrollAnimation animateOnce='true' animateIn='fadeIn'>
+
+                            <Row style={{ margin: "12px 0px" }}>
+                                <Col xs={12} md={4}>
+                                    <Card>
+                                        <CardHeader>Test Cases</CardHeader>
+                                        <CardBody>
+                                            <CardTitle>Protractor</CardTitle>
+                                            <CardTitle>Jest</CardTitle>
+
+                                        </CardBody>
+                                    </Card>
+
+                                </Col>
+                                <Col xs={12} md={4}>
+                                    <Card>
+                                        <CardHeader>Version Control</CardHeader>
+                                        <CardBody>
+                                            <CardTitle>Git</CardTitle>
+
+                                        </CardBody>
+                                    </Card>
+
+                                </Col>
+                                <Col xs={12} md={4}>
+                                    <Card>
+                                        <CardHeader>OS</CardHeader>
+                                        <CardBody>
+                                            <CardTitle>Ubuntu</CardTitle>
+                                            <CardTitle>Windows</CardTitle>
+
+                                        </CardBody>
+                                    </Card>
+
+                                </Col>
+                            </Row>
                         </ScrollAnimation>
                     </Container>
 

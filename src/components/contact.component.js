@@ -53,7 +53,7 @@ export default class ContactSection extends Component {
 
         return (
             <section style={section}>
-                <ScrollAnimation
+                <ScrollAnimation animateOnce='true'
                     animateIn='zoomInDown' >
                     <h1 style={heading}>
                         Ping Me!
@@ -63,7 +63,7 @@ export default class ContactSection extends Component {
                     <h3 style={fontMartel}>M Shaharyar</h3>
                     <p style={fontMartel}>I love what i do. Even if I had a different occupation, I would be coding something in my spare time!</p>
                     <p style={fontMartel}>shairy333@gmail.com | +92 334 3823232</p>
-                    <ScrollAnimation animateIn='jello'
+                    <ScrollAnimation animateOnce='true' animateIn='jello'
                         initiallyVisible={true}>
                         <p style={fontMartel}>
 
@@ -73,7 +73,7 @@ export default class ContactSection extends Component {
 
                 </div>
                 <div style={iconSec} >
-                    <ScrollAnimation animateIn='bounce'>
+                    <ScrollAnimation animateOnce='true' animateIn='bounce'>
                         <span style={iconWrapper}>
                             <FaTwitter style={icon}></FaTwitter>
                         </span>

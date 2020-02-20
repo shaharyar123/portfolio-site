@@ -37,13 +37,13 @@ export default class MainSection extends Component {
             <section className="App-header">
 
                 <div>
-                    <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
+                    <ScrollAnimation animateOnce='true' animateIn='bounceInRight' animateOut='bounceOutLeft'>
 
                         <h1 style={heading}>
                             Fullstack JavaScript Developer
                  </h1>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn='bounceInLeft' animateOut='bounceOutRight'>
+                    <ScrollAnimation animateOnce='true' animateIn='bounceInLeft' animateOut='bounceOutRight'>
 
                         <h2 style={subHeading}>I design and code beautifully simple things, and I love what I do.</h2>
                     </ScrollAnimation>
@@ -54,7 +54,7 @@ export default class MainSection extends Component {
 
                 </div>
                 <div style={heroMachineSec}>
-                    <ScrollAnimation animateIn='flipInY'
+                    <ScrollAnimation animateOnce='true' animateIn='flipInY'
                         animateOut='flipOutY'>
                         <img style={heroImg} src={hero} alt="logo" />
                     </ScrollAnimation>

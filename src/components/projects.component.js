@@ -35,7 +35,7 @@ export default class ProjectsSection extends Component {
 
 
         return (
-            <ScrollAnimation animateIn='flipInX'>
+            <ScrollAnimation animateOnce='true' animateIn='flipInX'>
 
                 <section style={section}>
                     <div style={infoSecProject}  >

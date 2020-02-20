@@ -54,15 +54,15 @@ export default class ContributionsSection extends Component {
                 <div style={listing}>
 
                     <h3 style={subHeading}>Github</h3>
-                    <ScrollAnimation animateIn='fadeIn'>
+                    <ScrollAnimation animateOnce='true' animateIn='fadeIn'>
 
                         <ol className="gradient-list">
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Aenean tincidunt elit at ipsum cursus, vitae interdum nulla suscipit.</li>
-                            <li>Curabitur in orci vel risus facilisis accumsan.</li>
-                            <li>Morbi eleifend tortor lacinia sapien sagittis, quis pellentesque felis egestas.</li>
-                            <li>Aenean viverra dui quis leo lacinia fringilla.</li>
-                            <li>Sed varius lectus ac condimentum egestas.</li>
+                            <li> <a href='https://github.com/GoogleChrome/rendertron' target="_blank">https://github.com/GoogleChrome/rendertron</a></li>
+                            <li> <a href='https://github.com/rickwest/devsnippets' target="_blank">https://github.com/rickwest/devsnippets</a> </li>
+                            <li><a href='https://github.com/AhsanAyaz/html5-canvas-snake-game' target="_blank">https://github.com/AhsanAyaz/html5-canvas-snake-game</a></li>
+                            <li><a href='https://github.com/smtaha512/ionic-collection' target="_blank">https://github.com/smtaha512/ionic-collection</a></li>
+                            <li><a href='https://github.com/shaharyar123/ionic4-multi-slides' target="_blank">https://github.com/shaharyar123/ionic4-multi-slides</a></li>
+                            <li><a href='https://github.com/shaharyar123/ionic-4-image-uploader' target="_blank">https://github.com/shaharyar123/ionic-4-image-uploader</a></li>
 
 
                         </ol>
@@ -71,12 +71,13 @@ export default class ContributionsSection extends Component {
                 </div>
                 <div style={listing}>
                     <h3 style={subHeading}>Articles</h3>
-                    <ScrollAnimation animateIn='fadeIn'>
+                    <ScrollAnimation animateOnce='true' animateIn='fadeIn'>
 
                         <ol className="gradient-list">
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Aenean tincidunt elit at ipsum cursus, vitae interdum nulla suscipit.</li>
-                            <li>Curabitur in orci vel risus facilisis accumsan.</li>
+                            <li><a href='https://medium.com/@shairy333/angular-9-in-a-nutshell-99b0f7b6ff0e' target="_blank">https://medium.com/@shairy333/angular-9-in-a-nutshell-99b0f7b6ff0e</a></li>
+                            <li><a href='https://medium.com/@shairy333/understanding-framework-and-library-is-like-preparing-a-sandwich-57bc92a859e9' target="_blank">https://medium.com/@shairy333/understanding-framework-and-library-is-like-preparing-a-sandwich-57bc92a859e9</a></li>
+                            <li><a href='https://gulp-api.blogspot.com' target="_blank">https://gulp-api.blogspot.com </a></li>
+                            <li><a href=' http://node-heroku.blogspot.com' target="_blank"> http://node-heroku.blogspot.com</a></li>
 
 
                         </ol>
@@ -86,12 +87,12 @@ export default class ContributionsSection extends Component {
 
                 <div style={listing}>
                     <h3 style={subHeading}>Others</h3>
-                    <ScrollAnimation animateIn='fadeIn'>
+                    <ScrollAnimation animateOnce='true' animateIn='fadeIn'>
 
                         <ol className="gradient-list">
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Aenean tincidunt elit at ipsum cursus, vitae interdum nulla suscipit.</li>
-                            <li>Curabitur in orci vel risus facilisis accumsan.</li>
+                            <li>Mentor for ngGirls, Circle(techKaro) </li>
+                            <li>Conducted workshops on web development and carrer counselling</li>
+                            <li>Volunteer/managment in many tech events</li>
 
                         </ol>
                     </ScrollAnimation>
