@@ -37,6 +37,7 @@ ol.gradient-list {
   padding-left: 1rem;
 }
 ol.gradient-list > li {
+  overflow-wrap: break-word;
   background: white;
   border-radius: 0 0.5rem 0.5rem 0.5rem;
   counter-increment: gradient-counter;

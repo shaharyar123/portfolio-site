@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
-import '../css/intro.css'
+// import '../css/intro.css'
 import {
     Card, CardHeader, CardBody,
     CardTitle, CardText
@@ -23,7 +23,7 @@ export default class SkillsSection extends Component {
             fontFamily: "Uncial Antiqua",
             margin: "30px 0"
         };
-        const infoSec = {
+        const informationSec = {
             border: '1px solid #E6ECF8',
             borderRadius: '12px',
             marginBottom: '70px',
@@ -38,7 +38,7 @@ export default class SkillsSection extends Component {
 
         return (
             <section style={section}>
-                <div style={infoSec} className='infoSec'>
+                <div style={informationSec} className='informationSec'>
                     <h1 style={heading}>
                         Skills
                  </h1>

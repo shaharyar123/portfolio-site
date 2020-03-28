@@ -90,9 +90,11 @@ export default class ContributionsSection extends Component {
                     <ScrollAnimation animateOnce='true' animateIn='fadeIn'>
 
                         <ol className="gradient-list">
-                            <li>Mentor for ngGirls, Circle(techKaro) </li>
-                            <li>Conducted workshops on web development and carrer counselling</li>
-                            <li>Volunteer/managment in many tech events</li>
+                            <li>Mentor of the students of ngGirls</li>
+                            <li>Mentor of the students of Circle(techKaro) </li>
+                            <li>Conducted workshops on web development</li>
+                            <li>Did counselling of software industry</li>
+                            <li>Volunteer and in-managment for many tech events</li>
 
                         </ol>
                     </ScrollAnimation>

@@ -27,6 +27,10 @@ export default class ContactSection extends Component {
         const fontMartel = {
             fontFamily: "Martel+Sans",
 
+        };
+        const fontMartelDownload = {
+            fontFamily: "Martel+Sans",
+            cursor: 'pointer'
         }
 
         const iconSec = {
@@ -37,7 +41,8 @@ export default class ContactSection extends Component {
             border: '2px solid white',
             borderRadius: '50px',
             padding: '10px',
-            margin: '0 7px',
+            margin: '0 7px 7px 7px',
+            display: 'inline-block',
 
             cursor: 'pointer'
 
@@ -65,7 +70,7 @@ export default class ContactSection extends Component {
                     <p style={fontMartel}>shairy333@gmail.com | +92 334 3823232</p>
                     <ScrollAnimation animateOnce='true' animateIn='jello'
                         initiallyVisible={true}>
-                        <p style={fontMartel}>
+                        <p style={fontMartelDownload}>
 
                             <FaDownload style={icon}  ></FaDownload> <b>Download Resume</b>
                         </p>
