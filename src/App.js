@@ -21,7 +21,7 @@ function App() {
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Button variant="outline-success">Hire me!</Button>
+            <a href="#hireMe"><Button variant="outline-success">Hire me!</Button></a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -29,7 +29,7 @@ function App() {
       <IntroSection></IntroSection>
       <SkillsSection></SkillsSection>
       <ContributionsSection></ContributionsSection>
-      <ProjectsSection></ProjectsSection>
+      {/* <ProjectsSection></ProjectsSection> */}
       <ContactSection></ContactSection>
     </div>
   );

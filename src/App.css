@@ -44,3 +44,16 @@
     transform: rotate(360deg);
   }
 }
+
+.icon-wrapper:hover {
+  background: white;
+
+  border: 2px solid white;
+}
+.icon-wrapper:hover > a > .contact-icon {
+  color: #7510f7 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -137,9 +137,11 @@ export default class SkillsSection extends Component {
                                 </Col>
                                 <Col xs={12} md={4}>
                                     <Card>
-                                        <CardHeader>Version Control</CardHeader>
+                                        <CardHeader>Others</CardHeader>
                                         <CardBody>
                                             <CardTitle>Git</CardTitle>
+                                            <CardTitle>Heroku</CardTitle>
+                                            <CardTitle>Firebase</CardTitle>
 
                                         </CardBody>
                                     </Card>

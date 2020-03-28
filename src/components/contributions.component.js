@@ -7,7 +7,7 @@ export default class ContributionsSection extends Component {
 
     render() {
         const section = {
-            backgroundColor: '#816CF8',
+            backgroundColor: '#F7F7F7',
 
             padding: '120px 20px 120px 20px'
         }
